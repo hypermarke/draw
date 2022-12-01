@@ -1,0 +1,55 @@
+@font-face {
+    font-family: coolfont;
+    src: url(fonts/coolfont.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    background: #7F7FD5;
+    background: -webkit-linear-gradient(to right, #4390e7, #4390e7, #4390e7);
+    background: linear-gradient(to right, #4390e7, #4390e7, #3c8fc7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: coolfont;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 70px;
+    background-color: #202020;
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar label {
+    font-size: 15px;
+}
+
+#toolbar input {
+    width: 100%;
+}
+
+#toolbar button {
+    background-color: #4390e7;
+    border: none;
+    border-radius: 4px;
+    color: rgb(50, 91, 167);
+    padding: 2px;
+}
